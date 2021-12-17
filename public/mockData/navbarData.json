@@ -1,0 +1,9 @@
+{
+  "brandIcon": "/assets/icons/brandIcon.png",
+  "navbarItems": [
+    { "title": "STORIES", "link": "/stories" },
+    { "title": "EVENTS", "link": "/events" },
+    { "title": "PLACES", "link": "/places" },
+    { "title": "BOARDS", "link": "/boards" }
+  ]
+}

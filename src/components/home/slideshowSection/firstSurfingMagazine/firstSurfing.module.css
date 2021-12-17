@@ -1,0 +1,25 @@
+.holder {
+  top: 50px;
+  right: 0;
+  height: 400px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstSurfingHolder {
+  transform: rotate(-90deg);
+  position: relative;
+}
+.firstSurfingText {
+  opacity: 0.2;
+  font-weight: bold;
+  text-align: right;
+  transform: rotate(-90deg);
+  width: 20px;
+  height: 237px;
+}
+.socialMediaHolder {
+  width: 20px;
+}

@@ -1,0 +1,144 @@
+.swiper-holder {
+  position: relative;
+}
+.swiper {
+  width: 60%;
+  height: 100%;
+  box-shadow: -15.9px 25.4px 65px 0 rgba(11, 12, 17, 0.2);
+  transform: translateX(70px);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: unset;
+  object-fit: cover;
+}
+.swiper-button-prev {
+  bottom: 0 !important ;
+  top: unset !important;
+  left: 127px;
+  width: 11px !important;
+  height: 18px !important;
+  margin: 29px 17px 0 0;
+}
+.swiper-button-prev::after {
+  height: 20px !important;
+  font-size: 100% !important;
+}
+
+.swiper-button-next {
+  bottom: 0 !important ;
+  top: unset !important;
+  left: 197px;
+  width: 11px !important;
+  height: 18px !important;
+  margin: 29px 17px 0 0;
+}
+.swiper-button-next::after {
+  height: 20px !important;
+  font-size: 100% !important;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 33px;
+  left: 147px;
+  width: 50px;
+  height: 10px;
+  /* margin: 29px 17px 0 0; */
+  font-family: LeagueSpartan;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 6.6;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.swiper-pagination .active-pagination {
+  color: #5da8ef;
+}
+.swiper-pagination .divider-pagination {
+  color: #ebebeb;
+}
+.swiper-pagination .pagination-length {
+  color: #000;
+}
+
+.slider-text {
+  position: absolute;
+  transition: 0.3s;
+  top: 100px;
+}
+.slider-text.active {
+  left: 30px;
+  z-index: 100;
+
+  visibility: inherit !important;
+}
+.slider-text:not(.active) {
+  left: -800px;
+  visibility: hidden !important;
+}
+
+.slider-text h4 {
+  height: 8px;
+  margin: 31px 26px 26px 107px;
+  opacity: 0.9;
+  font-family: LeagueSpartan;
+  font-size: 9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 7.33;
+  letter-spacing: 5.4px;
+  text-align: left;
+  color: rgba(93, 168, 239, 0.9);
+}
+.slider-text h2 {
+  height: 60px;
+  margin: 36px 45px 18px 107px;
+  font-family: PlayfairDisplay;
+  font-size: 62px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0b0c11;
+}
+.slider-text p {
+  width: 389px;
+  height: 61px;
+  margin: 18px 21px 81px 106px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.35px;
+  text-align: left;
+  color: #8f8f8f;
+}

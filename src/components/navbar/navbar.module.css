@@ -1,0 +1,10 @@
+.navItems {
+  padding-left: 150px;
+  font-weight: bold;
+}
+.navItem {
+  color: #000 !important;
+  padding: 0.5rem 2rem !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 6.5px;
+}
