@@ -2,3 +2,8 @@ export * from "./service";
 export * from "./slideshow";
 export * from "./homePageData";
 export * from "./socialMedia";
+export * from "./videoSectionData";
+export * from "./shopSectionData";
+export * from "./blogsData";
+export * from "./joinTheClubData";
+export * from "./ourCampData";

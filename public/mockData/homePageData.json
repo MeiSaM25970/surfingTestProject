@@ -1,7 +1,11 @@
 {
+  "homePageBackground": {
+    "firstBackground": "/assets/img/bg-1.png",
+    "secondBackground": "/assets/img/bg-2.png"
+  },
   "slideshowData": [
     {
-      "url": "assets/img/slide_1.jpg",
+      "url": "/assets/img/slide_1.jpg",
       "text": {
         "title": "YOUR",
         "header": "Beautiful Escape",
@@ -9,7 +13,7 @@
       }
     },
     {
-      "url": "assets/img/slide_1.jpg",
+      "url": "/assets/img/slide_1.jpg",
       "text": {
         "title": "YOUR 2",
         "header": "Beautiful Escape 2",
@@ -17,7 +21,7 @@
       }
     },
     {
-      "url": "assets/img/slide_1.jpg",
+      "url": "/assets/img/slide_1.jpg",
       "text": {
         "title": "YOUR 3",
         "header": "Beautiful Escape 3",
@@ -41,5 +45,88 @@
         "link": "http://vimeo.com"
       }
     ]
+  },
+  "videoSection": {
+    "text": "Surfing is the most blissful experience you can have on this planet, a taste of heaven.",
+    "authorName": "John McCarthy",
+    "rightVideoUrl": "/assets/videos/rightVideo.mp4",
+    "rightVideoPreviewImage": "/assets/videos/rightVideoPreview.jpg",
+    "leftVideoUrl": "/assets/videos/leftVideo.mp4",
+    "leftVideoPreviewImage": "/assets/videos/leftVideoPreview.jpg",
+    "description": "By better understanding the various aspects of surfing, you will improve faster and have more fun in the water."
+  },
+  "shopSection": {
+    "title": "shop",
+    "header": "Surfboards",
+    "surfboards": [
+      {
+        "image": "/assets/img/1.png",
+        "title": "Funboards",
+        "name": "Agency GROM",
+        "price": 670,
+        "id": "1"
+      },
+      {
+        "image": "/assets/img/2.png",
+        "title": "Surfboards",
+        "name": "Emery NEM XF",
+        "price": 950,
+        "id": "2"
+      },
+      {
+        "image": "/assets/img/3.png",
+        "title": "Funboards",
+        "name": "Chilli Rare Bird",
+        "price": 890,
+        "id": "3"
+      },
+      {
+        "image": "/assets/img/1.png",
+        "title": "Funboards",
+        "name": "Agency GROM",
+        "price": 670,
+        "id": "1"
+      },
+      {
+        "image": "/assets/img/2.png",
+        "title": "Surfboards",
+        "name": "Emery NEM XF",
+        "price": 950,
+        "id": "2"
+      },
+      {
+        "image": "/assets/img/3.png",
+        "title": "Funboards",
+        "name": "Chilli Rare Bird",
+        "price": 890,
+        "id": "3"
+      }
+    ]
+  },
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Surf Training",
+      "description": "By better understanding the various aspects of surfing, By better understanding the various aspects of surfing, you will improve faster and have more fun in the water.",
+      "imageUrl": "/assets/img/blog-1.jpg",
+      "imageDetail": "Surf Camps"
+    },
+    {
+      "id": "2",
+      "title": "Point Break",
+      "description": "By better understanding the various aspects of By better understanding the various aspects of surfing, By better understanding the various aspects of surfing, you will improve faster and have more fun in the water.",
+      "imageUrl": "/assets/img/blog-2.jpg",
+      "imageDetail": "Surf Camps"
+    }
+  ],
+  "joinClubSection": {
+    "header": "Join the Club",
+    "description": "By better understanding the various aspects of surfing, you will improve faster and have more fun in the water."
+  },
+  "ourCampData": {
+    "imageUrl": "/assets/img/ourCamp.jpg",
+    "title": "Our Camp",
+    "description": "CA 91932, USA\nImperial Beach\n560 Silver Strand Blvd",
+    "getInTouch": "Get in Touch"
   }
 }

@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./slideshow.css";
-import { ISlideshowData } from "../..";
+import { ISlideshowData, useHomeService } from "../..";
 interface ISlideshowProps {
   sliderData: ISlideshowData[];
 }
@@ -16,9 +16,9 @@ export const Slideshow: React.FC<ISlideshowProps> = ({ sliderData }) => {
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
   const [activeSlideIndex, setActiveSlideIndex] = useState<number>(0);
-
+  const service = useHomeService()!;
   return (
-    <div className="swiper-holder">
+    <div className="swiper-holder slideshow">
       <Swiper
         autoplay
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
@@ -42,11 +42,12 @@ export const Slideshow: React.FC<ISlideshowProps> = ({ sliderData }) => {
         className="mySwiper"
       >
         {sliderData.map((img, index) => (
-          <>
-            <SwiperSlide key={index}>
-              <img src={img.url} alt={`slideshow-${index + 1}`} />
-            </SwiperSlide>
-          </>
+          <SwiperSlide className="sliderCardHolder" key={index}>
+            <img
+              src={service.getAbsoluteUrl(img.url)}
+              alt={`slideshow-${index + 1}`}
+            />
+          </SwiperSlide>
         ))}
       </Swiper>
       {sliderData.map((img, index) => (
@@ -54,6 +55,7 @@ export const Slideshow: React.FC<ISlideshowProps> = ({ sliderData }) => {
           className={`slider-text ${
             index === activeSlideIndex ? "active" : ""
           }`}
+          key={index}
         >
           <h4>{img.text.title}</h4>
           <h2>{img.text.header}</h2>

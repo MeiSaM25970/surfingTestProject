@@ -1,0 +1,6 @@
+.background {
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  z-index: -2;
+}

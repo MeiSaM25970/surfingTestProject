@@ -1,14 +1,15 @@
-.swiper-holder {
+.swiper-holder.slideshow {
   position: relative;
 }
-.swiper {
-  width: 60%;
+.slideshow .swiper {
+  width: 907px;
+  margin-right: 170px;
   height: 100%;
   box-shadow: -15.9px 25.4px 65px 0 rgba(11, 12, 17, 0.2);
   transform: translateX(70px);
 }
 
-.swiper-slide {
+.slideshow .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -27,13 +28,13 @@
   -webkit-align-items: center;
   align-items: center;
 }
-.swiper-slide img {
+.slideshow .swiper-slide img {
   display: block;
   width: 100%;
   height: unset;
   object-fit: cover;
 }
-.swiper-button-prev {
+.slideshow .swiper-button-prev {
   bottom: 0 !important ;
   top: unset !important;
   left: 127px;
@@ -41,12 +42,12 @@
   height: 18px !important;
   margin: 29px 17px 0 0;
 }
-.swiper-button-prev::after {
+.slideshow .swiper-button-prev::after {
   height: 20px !important;
   font-size: 100% !important;
 }
 
-.swiper-button-next {
+.slideshow .swiper-button-next {
   bottom: 0 !important ;
   top: unset !important;
   left: 197px;
@@ -54,19 +55,18 @@
   height: 18px !important;
   margin: 29px 17px 0 0;
 }
-.swiper-button-next::after {
+.slideshow .swiper-button-next::after {
   height: 20px !important;
   font-size: 100% !important;
 }
 
-.swiper-pagination {
+.slideshow .swiper-pagination {
   position: absolute;
   bottom: 33px;
   left: 147px;
   width: 50px;
   height: 10px;
-  /* margin: 29px 17px 0 0; */
-  font-family: LeagueSpartan;
+  font-family: "League Spartan", sans-serif;
   font-size: 10px;
   font-weight: bold;
   font-stretch: normal;
@@ -75,37 +75,37 @@
   letter-spacing: 4px;
   text-align: center;
 }
-.swiper-pagination .active-pagination {
+.slideshow .swiper-pagination .active-pagination {
   color: #5da8ef;
 }
-.swiper-pagination .divider-pagination {
+.slideshow .swiper-pagination .divider-pagination {
   color: #ebebeb;
 }
-.swiper-pagination .pagination-length {
+.slideshow .swiper-pagination .pagination-length {
   color: #000;
 }
 
-.slider-text {
+.slideshow .slider-text {
   position: absolute;
   transition: 0.3s;
   top: 100px;
 }
-.slider-text.active {
+.slideshow .slider-text.active {
   left: 30px;
   z-index: 100;
 
   visibility: inherit !important;
 }
-.slider-text:not(.active) {
+.slideshow .slider-text:not(.active) {
   left: -800px;
   visibility: hidden !important;
 }
 
-.slider-text h4 {
+.slideshow .slider-text h4 {
   height: 8px;
   margin: 31px 26px 26px 107px;
   opacity: 0.9;
-  font-family: LeagueSpartan;
+  font-family: "League Spartan", sans-serif;
   font-size: 9px;
   font-weight: bold;
   font-stretch: normal;
@@ -115,10 +115,10 @@
   text-align: left;
   color: rgba(93, 168, 239, 0.9);
 }
-.slider-text h2 {
+.slideshow .slider-text h2 {
   height: 60px;
   margin: 36px 45px 18px 107px;
-  font-family: PlayfairDisplay;
+  font-family: "Playfair Display", serif;
   font-size: 62px;
   font-weight: bold;
   font-stretch: normal;
@@ -128,17 +128,17 @@
   text-align: left;
   color: #0b0c11;
 }
-.slider-text p {
+.slideshow .slider-text p {
   width: 389px;
   height: 61px;
   margin: 18px 21px 81px 106px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
-  font-weight: 300;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.35px;
   text-align: left;
   color: #8f8f8f;
+  font-weight: bold;
 }

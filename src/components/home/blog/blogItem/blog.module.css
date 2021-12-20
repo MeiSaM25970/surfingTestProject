@@ -1,0 +1,112 @@
+.blogDetailReverse,
+.blogDetail {
+  width: 350px;
+  position: relative;
+}
+.blogDetailReverse h2,
+.blogDetail h2 {
+  font-family: PlayfairDisplay;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 0.42px;
+  text-align: left;
+  color: #333;
+  position: relative;
+}
+.blogDetail h2::after {
+  content: "";
+  border-bottom: 2px solid #5da8ef;
+  width: 23px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.blogDetailReverse h2::after {
+  content: "";
+  border-bottom: 2px solid #5da8ef;
+  width: 23px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.blogDetailReverse p,
+.blogDetail p {
+  width: 336px;
+  /* opacity: 0.65; */
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.35px;
+  text-align: left;
+  color: #8f8f8f;
+  margin-top: 39px;
+}
+.blogDetailReverse a,
+.blogDetail a {
+  font-family: LeagueSpartan;
+  font-size: 9px;
+  font-weight: bold;
+  text-decoration: unset !important;
+  letter-spacing: 5.4px;
+  text-align: center;
+  color: #333;
+  opacity: 0.7;
+  border-bottom: 1px solid #5da8ef;
+  margin-top: 67px !important;
+  display: block;
+  width: 120px;
+  padding-bottom: 10px;
+}
+
+.imageHolder img {
+  max-width: 808px;
+  padding-left: 50px;
+}
+.imageHolderReverse img {
+  max-width: 800px;
+}
+.imageHolder,
+.imageHolderReverse {
+  position: relative;
+}
+.imageHolder .imageDetail {
+  opacity: 0.2;
+  font-weight: bold;
+  text-align: right;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: -71px;
+  top: 29px;
+}
+.imageHolderReverse .imageDetail {
+  opacity: 0.2;
+  font-weight: bold;
+  text-align: right;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -71px;
+  top: 29px;
+}
+.reverseBlogHolder {
+  margin-top: 121px;
+  /* justify-content: space-around !important; */
+}
+.blogDetailReverse {
+  margin-left: 76px;
+}
+.blogNumber {
+  font-family: LeagueSpartan;
+  font-size: 130px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.51;
+  letter-spacing: 13px;
+  text-align: left;
+  color: #eeeeee;
+  position: absolute;
+  top: -38px;
+}

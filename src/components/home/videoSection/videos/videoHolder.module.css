@@ -1,0 +1,40 @@
+.holder {
+  position: relative;
+  height: 562px;
+  margin-top: 62px;
+}
+.leftVideo {
+  position: relative;
+  width: 556px;
+  height: 370px;
+  transition: 0.5s;
+  z-index: 0;
+  transform: scale(1);
+}
+.leftVideo:hover {
+  z-index: 1000;
+  position: absolute;
+  transform: scale(1.05);
+}
+.rightVideo {
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top: 43px;
+  width: 660px;
+  height: 520px;
+  transition: 0.3s;
+}
+.active {
+  transform: scale(1.05);
+  z-index: 1000;
+  position: absolute;
+}
+.rightVideo.active {
+  transform: scale(1.05);
+  z-index: 100;
+  position: absolute;
+}
+.rightVideo:not(.active) {
+  transform: scale(1);
+}

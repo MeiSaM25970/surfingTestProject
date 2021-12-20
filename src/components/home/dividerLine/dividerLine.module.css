@@ -1,0 +1,11 @@
+.lineHolder {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 58px;
+}
+.lineHolder span {
+  width: 2px;
+  height: 100px;
+  background-color: #5da8ef;
+}

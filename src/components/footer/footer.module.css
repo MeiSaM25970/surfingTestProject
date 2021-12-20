@@ -1,0 +1,23 @@
+.footer {
+  margin-bottom: 97px;
+}
+
+.itemsHolder a {
+  opacity: 0.9;
+  font-family: LeagueSpartan;
+  font-size: 9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 7.33;
+  letter-spacing: 5.58px;
+  color: rgba(11, 12, 17, 0.9);
+  text-decoration: unset;
+  padding: 8px 32px;
+}
+.itemsHolder {
+  text-align: center;
+}
+.socialMediaHolder img {
+  padding: 8px 15px;
+}

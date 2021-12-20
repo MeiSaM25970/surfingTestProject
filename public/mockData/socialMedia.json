@@ -1,0 +1,14 @@
+[
+  {
+    "icon": "/assets/icons/tumblr.png",
+    "link": "http://tumblr.com"
+  },
+  {
+    "icon": "/assets/icons/twitter.png",
+    "link": "http://twitter.com"
+  },
+  {
+    "icon": "/assets/icons/vimeo.png",
+    "link": "http://vimeo.com"
+  }
+]

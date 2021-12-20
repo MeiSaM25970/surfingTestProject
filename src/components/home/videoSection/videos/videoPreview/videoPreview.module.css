@@ -1,0 +1,8 @@
+.playIcon {
+  width: 68px;
+  height: 68px;
+  background-image: url("/public/assets/icons/play.png");
+  background-size: cover;
+
+  cursor: pointer;
+}

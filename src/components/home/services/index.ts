@@ -7,7 +7,10 @@ export class HomeService implements IHomeService {
     this.urls = urls;
   }
   getHomePageData(): Promise<IHomePageData> {
-    return axios.get(this.urls.homePageData).then((res) => res.data);
+    return axios
+      .get(this.urls.homePageData)
+      .then((res) => res.data)
+      .catch((e) => console.log(e));
   }
 
   getAbsoluteUrl(path: string): string {
