@@ -18,7 +18,10 @@ export const HomePage: React.FC = () => {
   const [homePageData, setHomePageData] = useState<IHomePageData>();
 
   useEffect(() => {
-    service.getHomePageData().then(setHomePageData);
+    service
+      .getHomePageData()
+      .then(setHomePageData)
+      .catch((e) => console.log(e));
   }, [service]);
   if (!homePageData) {
     return <div className="loading">...Loading</div>;

@@ -14,8 +14,8 @@
 }
 .description {
   width: 336px;
-  height: 116px;
-  margin: 60px 78px 67px 91px;
+  /* height: 116px; */
+  margin: 55px 78px 67px 91px;
   font-family: PlayfairDisplay;
   font-size: 32px;
   font-weight: bold;

@@ -14,8 +14,14 @@ function App() {
   const [navbarData, setNavbarData] = useState<INavbarData>();
   const [socialMedias, setSocialMedias] = useState<ISocialMedia[]>();
   useEffect(() => {
-    service.getNavbarData().then(setNavbarData);
-    service.getSocialMedia().then(setSocialMedias);
+    service
+      .getNavbarData()
+      .then(setNavbarData)
+      .catch((e) => console.log(e));
+    service
+      .getSocialMedia()
+      .then(setSocialMedias)
+      .catch((e) => console.log(e));
   }, [service]);
   return (
     <ServiceContext.Provider value={service}>
